@@ -1,11 +1,26 @@
 # Product AI Catalog API
 
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Build](https://img.shields.io/badge/build-Maven-red)
+
 Backend REST API built with **Spring Boot** that combines a traditional **CRUD product catalog** with **AI-powered product analysis**.
 
 The application allows storing products in a database and using **AI to generate descriptions and analyze products automatically**.
 
 ---
 
+## Architecture
+
+The project follows a layered architecture:
+
+### Controller → Service → Repository → Database
+
+AI features are separated in an independent module:
+
+### AI Controller → AI Service → Prompt Engine → LLM
+---
 ## Features
 
 - Product CRUD (Create, Read, Update, Delete)
