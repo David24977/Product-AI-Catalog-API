@@ -1,9 +1,9 @@
 # Product AI Catalog API
 
-![Java](https://img.shields.io/badge/Java-21-orange)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Build](https://img.shields.io/badge/build-Maven-red)
+![Java](https://img.shields.io/badge/Java-21-orange)](https://www.oracle.com/java/)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)](https://spring.io/projects/spring-boot)
+![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+![Build](https://img.shields.io/badge/build-Maven-red)](https://maven.apache.org/)
 
 Backend REST API built with **Spring Boot** that combines a traditional **CRUD product catalog** with **AI-powered product analysis**.
 
