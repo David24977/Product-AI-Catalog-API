@@ -1,0 +1,13 @@
+package com.David.productAI;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProductAiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProductAiApplication.class, args);
+	}
+
+}
